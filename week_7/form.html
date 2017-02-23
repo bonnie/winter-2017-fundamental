@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form</title>
+</head>
+<body>
+
+    <button id="form-button">Show / Hide Form</button>
+
+
+    <form id="my-form">
+        Email: <input type="text" name="email">
+        Password: <input type="password" name="pass">
+    </form>
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script>
+
+        function toggleButton(evt) {
+            console.log(evt);
+
+            $('#my-form').toggle();
+        }
+
+        $('#form-button').on('click', toggleButton);
+
+        $('#form-button').on('mouseover', toggleButton);
+
+    </script>
+
+</body>
+</html>
