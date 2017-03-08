@@ -6,7 +6,7 @@ def get_nonchocolate_cupcakes(cupcakes):
     this function looks through the cupcake names
     from the input list (cupcakes) and returns a
     list of the names that don't include the word
-    chocolate (chocolate must be in lowercase in 
+    chocolate (chocolate must be in lowercase in
     the cupcake name to be eliminated)
     """
 
@@ -18,8 +18,8 @@ def get_nonchocolate_cupcakes(cupcakes):
 
     return nonchocolate_cupcakes
 
-tuesday_cupcake_flavors = ['chocolate', 'chocolate brownie', 
-                          'double chocolate', 'vanilla']
+tuesday_cupcake_flavors = ['chocolate', 'chocolate brownie',
+                          'double chocolate', 'vanilla', 'red velvet']
 
 # print "calling get_nonchocolate_cupcakes on tuesday flavors"
 # tuesday_nochocolate = get_nonchocolate_cupcakes(tuesday_cupcake_flavors)
@@ -27,7 +27,7 @@ tuesday_cupcake_flavors = ['chocolate', 'chocolate brownie',
 #     print "{} is a tuesday flavor".format(flavor)
 
 
-# wednesday_cupcake_flavors = ['red velvet', 'mint cookie', 
+# wednesday_cupcake_flavors = ['red velvet', 'mint cookie',
 #                             'devils food', 'rocky road', 'Death by Chocolate']
 # print "calling get_nonchocolate_cupcakes on wednesdays flavors"
 # wednesday_nonchocolate = get_nonchocolate_cupcakes(wednesday_cupcake_flavors)
