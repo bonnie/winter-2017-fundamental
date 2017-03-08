@@ -19,7 +19,7 @@ def get_nonchocolate_cupcakes(cupcakes):
     return nonchocolate_cupcakes
 
 tuesday_cupcake_flavors = ['chocolate', 'chocolate brownie',
-                          'double chocolate', 'vanilla', 'red velvet']
+                          'double chocolate', 'vanilla', 'red velvet', 'lemon']
 
 # print "calling get_nonchocolate_cupcakes on tuesday flavors"
 # tuesday_nochocolate = get_nonchocolate_cupcakes(tuesday_cupcake_flavors)
